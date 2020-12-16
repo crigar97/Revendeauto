@@ -1,16 +1,29 @@
+// Modules
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { FormsModule } from '@angular/forms';
+// Routes
 import { AppRoutingModule } from './app-routing.module';
+// Pages
+import { HomeComponent } from './home/home.component';
+// Components
 import { AppComponent } from './app.component';
+import { ProductComponent } from './components/product/product.component';
+import { ProductsComponent } from './products/products.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProductComponent,
+    HomeComponent,
+    ProductsComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

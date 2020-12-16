@@ -1,0 +1,31 @@
+$primary-color: #0D2B6F;
+
+:host {
+  padding: 20px;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: inline-block;
+}
+
+.logo {
+  font-size: 3rem;
+  color: $primary-color;
+}
+
+.nav-link {
+  margin-left: 20px;
+  font-size: 2rem;
+  color: black;
+  letter-spacing: 1px;
+}
+
+.active {
+  color: $primary-color;
+  font-weight: bold;
+}
