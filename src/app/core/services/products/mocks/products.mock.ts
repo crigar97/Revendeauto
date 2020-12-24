@@ -1,6 +1,6 @@
-import { Product } from './../components/product/product.model';
+import { Product } from '../../../../models/product.model';
 
-const productsFeed: Product[] = [
+export const productsMock: Product[] = [
   {
     id: 1,
     title: 'Chevrolet RX24R',
@@ -44,5 +44,3 @@ const productsFeed: Product[] = [
     price: 79000
   },
 ];
-
-export default productsFeed;

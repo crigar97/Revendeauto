@@ -7,12 +7,12 @@ $primary-color: #0D2B6F;
 html {
   margin: 0;
   padding: 0;
+}
+
+body { 
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-size: 62.5%;
   font-family: $font-1;
-}
-
-body {
-  margin: 0;
-  padding: 0;
 }

@@ -1,0 +1,22 @@
+<div class="row product">
+  <div class="col-xs-12">
+    <img [src]="product.img" class="product__img" alt="img de auto">
+  </div>
+  <div class="con-xs-12 product__info">
+    <h2 class="product__title">{{ product.title }}</h2>
+    <p class="product__description">{{ product.description }}</p>
+    <div class="row center-xs around-xs">
+      <div class="col-xs-auto">
+        <span class="product__price">{{ product.price | currency:'$' }} MXN</span>
+      </div>
+      <div class="col-xs-auto">
+        <a [routerLink]="['/products', product.id]" class="product__go-details">Ver info ></a>
+      </div>
+    </div>
+    <!-- <button (click)="addToCart()" class="btn-add">Comprar</button> -->
+  </div>
+</div>
+
+<div>
+
+</div>

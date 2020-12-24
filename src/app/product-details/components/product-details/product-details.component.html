@@ -1,0 +1,11 @@
+<div class="row product">
+  <div class="col-xs-6">
+    <img [src]="product.img" alt="imagen de auto" class="product__img">
+  </div>
+  <div class="col-xs-offset-1 col-xs-5">
+    <h1 class="product__title">{{ product.title }}</h1>
+    <p class="product__description">{{ product.description}}</p>
+    <p class="product__price">{{ product.price | currency:'$' }} MXN</p>
+    <button class="btn__buy-car">Comprar</button>
+  </div>
+</div>
