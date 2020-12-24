@@ -1,0 +1,37 @@
+$primary-color: #0D2B6F;
+
+.route {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+}
+
+.route__link {
+  text-decoration: none;
+  color: $primary-color;
+}
+
+.route__link:hover {
+  text-decoration: underline;
+}
+
+.route__separator {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.products__header {
+  width: auto;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-bottom: 3px solid $primary-color;
+}
+
+.products {
+  margin: 0;
+  padding: 30px;
+}
+
+.product {
+ margin-bottom: 50px; 
+}

@@ -1,0 +1,36 @@
+$primary-color: #0d2a6f;
+$dark-primary-color: #091d4d;
+
+.product {
+  margin: 0;
+  padding: 0;
+}
+
+.product__img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 30vh;
+}
+
+.product__info {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.product__price {
+  color: green;
+  font-size: 15px;
+}
+
+.product__go-details {
+  padding: 10px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: $primary-color;
+}
+
+.product__go-details:hover {
+  background-color: $dark-primary-color;
+}

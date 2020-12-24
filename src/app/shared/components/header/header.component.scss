@@ -1,0 +1,31 @@
+$primary-color: #0D2B6F;
+$dark-primary-color: #091d4d;
+
+.header {
+  margin: 0;
+  padding: 30px;
+}
+
+.header__logo {
+  width: auto;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.nav__link {
+  padding-left: 25px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: black
+}
+
+.nav__link:hover {
+  font-weight: bold;
+  color: $primary-color;
+}
+
+.active {
+  color: $primary-color;
+  font-weight: bold;
+}
